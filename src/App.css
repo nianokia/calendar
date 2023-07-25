@@ -18,3 +18,11 @@
   font-size: 14px;
   letter-spacing: 0.5px;
 }
+
+.App a {
+  color: rgb(159, 187, 234);
+}
+
+.App a:visited {
+  color: rgb(65, 97, 153);
+}
