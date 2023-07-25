@@ -29,7 +29,7 @@ function App() {
       </form>
       <Holidays />
       <footer className="mt-5 mb-3">
-      This app was coded by Nia Wright and is open-sourced on Github.
+      This app was coded by <a href="https://niawright.netlify.app/" target="_blank" rel="noreferrer">Nia Wright</a> and is open-sourced on <a href="https://github.com/nianokia/calendar" target="_blank" rel="noreferrer">GitHub</a>.
       </footer>
     </div>
   );
