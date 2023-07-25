@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import DatePicker from "react-datepicker";
 
 import "react-datepicker/dist/react-datepicker.css";
+import Holidays from "./Holidays";
 
 function App() {
   const [startDate, setStartDate] = useState(new Date());
@@ -24,6 +25,7 @@ function App() {
           />
         </div>
       </form>
+      <Holidays />
     </div>
   );
 }
