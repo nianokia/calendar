@@ -28,6 +28,9 @@ function App() {
         </div>
       </form>
       <Holidays />
+      <footer className="mt-5 mb-3">
+      This app was coded by Nia Wright and is open-sourced on Github.
+      </footer>
     </div>
   );
 }
