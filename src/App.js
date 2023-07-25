@@ -22,6 +22,8 @@ function App() {
         <DatePicker
             selected={startDate}
             onChange={(date) => setStartDate(date)}
+            isClearable
+            className="date-input"
           />
         </div>
       </form>
